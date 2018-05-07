@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2623795112806E8E84C183C /* libPods-imitateInke.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 157124C5C9FBBF9650C0B48B /* libPods-imitateInke.a */; };
+		FE1550FB209F2331007D62AF /* EJTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1550FA209F2331007D62AF /* EJTabBarViewController.m */; };
+		FE1550FE209F2350007D62AF /* EJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1550FD209F2350007D62AF /* EJTabBar.m */; };
+		FE155101209F3BF9007D62AF /* EJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE155100209F3BF9007D62AF /* EJBaseViewController.m */; };
+		FE155109209F3C6C007D62AF /* EJMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE155107209F3C6C007D62AF /* EJMainViewController.m */; };
+		FE15510A209F3C6C007D62AF /* EJMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE155108209F3C6C007D62AF /* EJMainViewController.xib */; };
+		FE15510E209F3C8D007D62AF /* EJMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE15510C209F3C8D007D62AF /* EJMeViewController.m */; };
+		FE15510F209F3C8D007D62AF /* EJMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE15510D209F3C8D007D62AF /* EJMeViewController.xib */; };
+		FE155112209F3D7D007D62AF /* EJBaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE155111209F3D7D007D62AF /* EJBaseNavViewController.m */; };
+		FE505B00209EFCE100BFFD35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE505AFF209EFCE100BFFD35 /* AppDelegate.m */; };
+		FE505B03209EFCE100BFFD35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE505B02209EFCE100BFFD35 /* ViewController.m */; };
+		FE505B06209EFCE100BFFD35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE505B04209EFCE100BFFD35 /* Main.storyboard */; };
+		FE505B08209EFCE300BFFD35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE505B07209EFCE300BFFD35 /* Assets.xcassets */; };
+		FE505B0B209EFCE300BFFD35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE505B09209EFCE300BFFD35 /* LaunchScreen.storyboard */; };
+		FE505B0E209EFCE300BFFD35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE505B0D209EFCE300BFFD35 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		157124C5C9FBBF9650C0B48B /* libPods-imitateInke.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-imitateInke.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C1532BE9AB5ED9022A5EB56 /* Pods-imitateInke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imitateInke.debug.xcconfig"; path = "Pods/Target Support Files/Pods-imitateInke/Pods-imitateInke.debug.xcconfig"; sourceTree = "<group>"; };
+		C99498407745D6605C974767 /* Pods-imitateInke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imitateInke.release.xcconfig"; path = "Pods/Target Support Files/Pods-imitateInke/Pods-imitateInke.release.xcconfig"; sourceTree = "<group>"; };
+		FE1550F3209F145A007D62AF /* MyPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPrefix.pch; sourceTree = "<group>"; };
+		FE1550F8209F21B0007D62AF /* EJMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJMacros.h; sourceTree = "<group>"; };
+		FE1550F9209F2331007D62AF /* EJTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJTabBarViewController.h; sourceTree = "<group>"; };
+		FE1550FA209F2331007D62AF /* EJTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJTabBarViewController.m; sourceTree = "<group>"; };
+		FE1550FC209F2350007D62AF /* EJTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJTabBar.h; sourceTree = "<group>"; };
+		FE1550FD209F2350007D62AF /* EJTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJTabBar.m; sourceTree = "<group>"; };
+		FE1550FF209F3BF9007D62AF /* EJBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJBaseViewController.h; sourceTree = "<group>"; };
+		FE155100209F3BF9007D62AF /* EJBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJBaseViewController.m; sourceTree = "<group>"; };
+		FE155106209F3C6C007D62AF /* EJMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJMainViewController.h; sourceTree = "<group>"; };
+		FE155107209F3C6C007D62AF /* EJMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJMainViewController.m; sourceTree = "<group>"; };
+		FE155108209F3C6C007D62AF /* EJMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EJMainViewController.xib; sourceTree = "<group>"; };
+		FE15510B209F3C8D007D62AF /* EJMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJMeViewController.h; sourceTree = "<group>"; };
+		FE15510C209F3C8D007D62AF /* EJMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJMeViewController.m; sourceTree = "<group>"; };
+		FE15510D209F3C8D007D62AF /* EJMeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EJMeViewController.xib; sourceTree = "<group>"; };
+		FE155110209F3D7D007D62AF /* EJBaseNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJBaseNavViewController.h; sourceTree = "<group>"; };
+		FE155111209F3D7D007D62AF /* EJBaseNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJBaseNavViewController.m; sourceTree = "<group>"; };
+		FE505AFB209EFCE100BFFD35 /* imitateInke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imitateInke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE505AFE209EFCE100BFFD35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE505AFF209EFCE100BFFD35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE505B01209EFCE100BFFD35 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE505B02209EFCE100BFFD35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE505B05209EFCE100BFFD35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE505B07209EFCE300BFFD35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE505B0A209EFCE300BFFD35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE505B0C209EFCE300BFFD35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE505B0D209EFCE300BFFD35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE505AF8209EFCE100BFFD35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2623795112806E8E84C183C /* libPods-imitateInke.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C2B80CE6D712182AA36E644 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C1532BE9AB5ED9022A5EB56 /* Pods-imitateInke.debug.xcconfig */,
+				C99498407745D6605C974767 /* Pods-imitateInke.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1013528C1BE95047C1EDCAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				157124C5C9FBBF9650C0B48B /* libPods-imitateInke.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE155102209F3C0C007D62AF /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		FE155103209F3C1A007D62AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE155104209F3C25007D62AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE155105209F3C2E007D62AF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FE155106209F3C6C007D62AF /* EJMainViewController.h */,
+				FE155107209F3C6C007D62AF /* EJMainViewController.m */,
+				FE155108209F3C6C007D62AF /* EJMainViewController.xib */,
+				FE15510B209F3C8D007D62AF /* EJMeViewController.h */,
+				FE15510C209F3C8D007D62AF /* EJMeViewController.m */,
+				FE15510D209F3C8D007D62AF /* EJMeViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FE505AF2209EFCE100BFFD35 = {
+			isa = PBXGroup;
+			children = (
+				FE505AFD209EFCE100BFFD35 /* imitateInke */,
+				FE505AFC209EFCE100BFFD35 /* Products */,
+				1C2B80CE6D712182AA36E644 /* Pods */,
+				E1013528C1BE95047C1EDCAB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE505AFC209EFCE100BFFD35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE505AFB209EFCE100BFFD35 /* imitateInke.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE505AFD209EFCE100BFFD35 /* imitateInke */ = {
+			isa = PBXGroup;
+			children = (
+				FE505B0C209EFCE300BFFD35 /* Info.plist */,
+				FE505B14209EFDAA00BFFD35 /* Class */,
+				FE505B15209EFDC000BFFD35 /* Supporting Files */,
+			);
+			path = imitateInke;
+			sourceTree = "<group>";
+		};
+		FE505B14209EFDAA00BFFD35 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				FE505B1E209EFE2400BFFD35 /* Show */,
+				FE505B1D209EFE1D00BFFD35 /* Other */,
+				FE505B1C209EFE1300BFFD35 /* Network */,
+				FE505B1B209EFE1000BFFD35 /* Me */,
+				FE505B1A209EFE0800BFFD35 /* Live */,
+				FE505B19209EFE0000BFFD35 /* Lib */,
+				FE505B18209EFDF800BFFD35 /* Launch */,
+				FE505B17209EFDEE00BFFD35 /* Helper */,
+				FE505B16209EFDE400BFFD35 /* Base */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		FE505B15209EFDC000BFFD35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE505B04209EFCE100BFFD35 /* Main.storyboard */,
+				FE505B07209EFCE300BFFD35 /* Assets.xcassets */,
+				FE505B09209EFCE300BFFD35 /* LaunchScreen.storyboard */,
+				FE505B0D209EFCE300BFFD35 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE505B16209EFDE400BFFD35 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FE1550F9209F2331007D62AF /* EJTabBarViewController.h */,
+				FE1550FA209F2331007D62AF /* EJTabBarViewController.m */,
+				FE1550FC209F2350007D62AF /* EJTabBar.h */,
+				FE1550FD209F2350007D62AF /* EJTabBar.m */,
+				FE1550FF209F3BF9007D62AF /* EJBaseViewController.h */,
+				FE155100209F3BF9007D62AF /* EJBaseViewController.m */,
+				FE155110209F3D7D007D62AF /* EJBaseNavViewController.h */,
+				FE155111209F3D7D007D62AF /* EJBaseNavViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		FE505B17209EFDEE00BFFD35 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FE505B18209EFDF800BFFD35 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		FE505B19209EFE0000BFFD35 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		FE505B1A209EFE0800BFFD35 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		FE505B1B209EFE1000BFFD35 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		FE505B1C209EFE1300BFFD35 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FE505B1D209EFE1D00BFFD35 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FE505AFE209EFCE100BFFD35 /* AppDelegate.h */,
+				FE505AFF209EFCE100BFFD35 /* AppDelegate.m */,
+				FE505B01209EFCE100BFFD35 /* ViewController.h */,
+				FE505B02209EFCE100BFFD35 /* ViewController.m */,
+				FE1550F3209F145A007D62AF /* MyPrefix.pch */,
+				FE1550F8209F21B0007D62AF /* EJMacros.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FE505B1E209EFE2400BFFD35 /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				FE155105209F3C2E007D62AF /* ViewController */,
+				FE155104209F3C25007D62AF /* View */,
+				FE155103209F3C1A007D62AF /* Model */,
+				FE155102209F3C0C007D62AF /* Handler */,
+			);
+			path = Show;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE505AFA209EFCE100BFFD35 /* imitateInke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE505B11209EFCE300BFFD35 /* Build configuration list for PBXNativeTarget "imitateInke" */;
+			buildPhases = (
+				51988FE825FBA2899D521077 /* [CP] Check Pods Manifest.lock */,
+				FE505AF7209EFCE100BFFD35 /* Sources */,
+				FE505AF8209EFCE100BFFD35 /* Frameworks */,
+				FE505AF9209EFCE100BFFD35 /* Resources */,
+				D2BC797046C4208C8F349E51 /* [CP] Embed Pods Frameworks */,
+				AAC24F785713959BE553C68E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = imitateInke;
+			productName = imitateInke;
+			productReference = FE505AFB209EFCE100BFFD35 /* imitateInke.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE505AF3209EFCE100BFFD35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EJ;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = J.Echoo;
+				TargetAttributes = {
+					FE505AFA209EFCE100BFFD35 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = FE505AF6209EFCE100BFFD35 /* Build configuration list for PBXProject "imitateInke" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE505AF2209EFCE100BFFD35;
+			productRefGroup = FE505AFC209EFCE100BFFD35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE505AFA209EFCE100BFFD35 /* imitateInke */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE505AF9209EFCE100BFFD35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE15510F209F3C8D007D62AF /* EJMeViewController.xib in Resources */,
+				FE15510A209F3C6C007D62AF /* EJMainViewController.xib in Resources */,
+				FE505B0B209EFCE300BFFD35 /* LaunchScreen.storyboard in Resources */,
+				FE505B08209EFCE300BFFD35 /* Assets.xcassets in Resources */,
+				FE505B06209EFCE100BFFD35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51988FE825FBA2899D521077 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-imitateInke-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAC24F785713959BE553C68E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-imitateInke/Pods-imitateInke-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2BC797046C4208C8F349E51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-imitateInke/Pods-imitateInke-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE505AF7209EFCE100BFFD35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE505B03209EFCE100BFFD35 /* ViewController.m in Sources */,
+				FE1550FB209F2331007D62AF /* EJTabBarViewController.m in Sources */,
+				FE155109209F3C6C007D62AF /* EJMainViewController.m in Sources */,
+				FE505B0E209EFCE300BFFD35 /* main.m in Sources */,
+				FE505B00209EFCE100BFFD35 /* AppDelegate.m in Sources */,
+				FE155101209F3BF9007D62AF /* EJBaseViewController.m in Sources */,
+				FE1550FE209F2350007D62AF /* EJTabBar.m in Sources */,
+				FE15510E209F3C8D007D62AF /* EJMeViewController.m in Sources */,
+				FE155112209F3D7D007D62AF /* EJBaseNavViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE505B04209EFCE100BFFD35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE505B05209EFCE100BFFD35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE505B09209EFCE300BFFD35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE505B0A209EFCE300BFFD35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE505B0F209EFCE300BFFD35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE505B10209EFCE300BFFD35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE505B12209EFCE300BFFD35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C1532BE9AB5ED9022A5EB56 /* Pods-imitateInke.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QCU65F2539;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/imitateInke/Class/Other/MyPrefix.pch";
+				INFOPLIST_FILE = imitateInke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = whu.imitateInke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE505B13209EFCE300BFFD35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C99498407745D6605C974767 /* Pods-imitateInke.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QCU65F2539;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/imitateInke/Class/Other/MyPrefix.pch";
+				INFOPLIST_FILE = imitateInke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = whu.imitateInke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE505AF6209EFCE100BFFD35 /* Build configuration list for PBXProject "imitateInke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE505B0F209EFCE300BFFD35 /* Debug */,
+				FE505B10209EFCE300BFFD35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE505B11209EFCE300BFFD35 /* Build configuration list for PBXNativeTarget "imitateInke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE505B12209EFCE300BFFD35 /* Debug */,
+				FE505B13209EFCE300BFFD35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE505AF3209EFCE100BFFD35 /* Project object */;
+}
