@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  imitateInke
+//
+//  Created by J Echoo on 2018/5/6.
+//  Copyright © 2018年 J.Echoo. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "Masonry.h"
+#import "SXTMacros.h"
+#import "YYKit.h"
+#import "APIConfig.h"
+#import "MJExtension.h"
+#import "UIImageView+SDWebImage.h"
+#import "SDWebImageManager.h"
+
+#endif /* PrefixHeader_pch */
